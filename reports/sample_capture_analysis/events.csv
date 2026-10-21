@@ -1,0 +1,8 @@
+﻿timestamp_utc,severity,type,src_ip,claimed_mac,trusted_mac,interface,mode,source,detail
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,pcap,standard,pcap,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,CRITICAL,IP-MAC_BINDING_CONFLICT,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,pcap,standard,pcap,192.0.2.10 is recently learned as 02:00:00:00:00:10; change to 02:00:00:00:00:99 needs explicit approval
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,pcap,standard,pcap,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,pcap,standard,pcap,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,pcap,standard,pcap,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,pcap,standard,pcap,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:16 UTC,CRITICAL,IP-MAC_BINDING_CONFLICT,192.0.2.1,02:00:00:00:00:99,02:00:00:00:00:01,pcap,standard,pcap,192.0.2.1 is recently learned as 02:00:00:00:00:01; change to 02:00:00:00:00:99 needs explicit approval

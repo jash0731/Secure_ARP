@@ -1,0 +1,20 @@
+﻿timestamp_utc,severity,type,src_ip,claimed_mac,trusted_mac,interface,mode,source,detail
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,demo,secure,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,CRITICAL,IP-MAC_BINDING_CONFLICT,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,demo,secure,demo,192.0.2.10 is approved as 02:00:00:00:00:10; change to 02:00:00:00:00:99 needs explicit approval
+2026-09-28 09:56:17 UTC,CRITICAL,AUTHENTICATION_FAILURE,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,demo,secure,demo,Authentication failed (missing); application trust table not updated
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,demo,standard,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,CRITICAL,IP-MAC_BINDING_CONFLICT,192.0.2.10,02:00:00:00:00:99,02:00:00:00:00:10,demo,standard,demo,192.0.2.10 is approved as 02:00:00:00:00:10; change to 02:00:00:00:00:99 needs explicit approval
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,secure,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,standard,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,secure,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,standard,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,secure,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,standard,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,secure,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,WARNING,ARP_REPLY_FLOOD,192.0.2.10,02:00:00:00:00:10,02:00:00:00:00:10,demo,standard,demo,> 8 ARP replies from 192.0.2.10 within 2s
+2026-09-28 09:56:17 UTC,CRITICAL,AUTHENTICATION_FAILURE,192.0.2.1,02:00:00:00:00:01,02:00:00:00:00:01,demo,secure,demo,Authentication failed (expired); application trust table not updated
+2026-09-28 09:56:16 UTC,CRITICAL,AUTHENTICATION_FAILURE,192.0.2.1,02:00:00:00:00:01,02:00:00:00:00:01,demo,secure,demo,Authentication failed (bad_mac); application trust table not updated
+2026-09-28 09:56:16 UTC,CRITICAL,REPLAY_SUSPECTED,192.0.2.1,02:00:00:00:00:01,02:00:00:00:00:01,demo,secure,demo,Authentication failed (replayed); application trust table not updated
+2026-09-28 09:56:16 UTC,CRITICAL,IP-MAC_BINDING_CONFLICT,192.0.2.1,02:00:00:00:00:99,02:00:00:00:00:01,demo,secure,demo,192.0.2.1 is approved as 02:00:00:00:00:01; change to 02:00:00:00:00:99 needs explicit approval
+2026-09-28 09:56:16 UTC,CRITICAL,AUTHENTICATION_FAILURE,192.0.2.1,02:00:00:00:00:99,02:00:00:00:00:01,demo,secure,demo,Authentication failed (missing); application trust table not updated
+2026-09-28 09:56:16 UTC,CRITICAL,IP-MAC_BINDING_CONFLICT,192.0.2.1,02:00:00:00:00:99,02:00:00:00:00:01,demo,standard,demo,192.0.2.1 is approved as 02:00:00:00:00:01; change to 02:00:00:00:00:99 needs explicit approval
